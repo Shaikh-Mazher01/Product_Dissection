@@ -4,8 +4,8 @@
 A deep-dive data architecture project focused on reverse-engineering Amazon’s transactional core. This repository features a highly normalized, production-grade relational database design built from scratch, ensuring data integrity, optimized query execution, and explicit resilience against security vulnerabilities.
 
 ## 🛠️ Tech Stack & Core Skills
-* **Database:** SQL / PostgreSQL (or MySQL)
-* **Design Tools:** ERD Tools (e.g., dbdiagram.io, Lucidchart)
+* **Database:** SQL / PostgreSQL 
+* **Design Tools:** dbdiagram.io
 * **Core Competencies:** Data Architecture, Database Schema Design, 3NF Normalization, ER Modeling, Database Security (Anti-SQLi)
 
 ## 🏗️ Schema Architecture
@@ -24,7 +24,5 @@ The database features an **8-entity relational schema** structured in Third Norm
 * **SQL Injection (SQLi) Defense:** Schema blueprints and operational views are structured specifically to abstract direct table access and support parameterized queries, neutralizing common web vulnerability attack vectors.
 
 ## 🚀 How to Use
-1. Review the conceptual design in `/docs/ERD_Diagram.png`.
-2. Run the initialization script to build the architecture:
-   ```sql
-   📁 database_init.sql
+1. Read the conceptual design in this document.
+

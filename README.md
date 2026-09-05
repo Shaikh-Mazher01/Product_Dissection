@@ -8,7 +8,7 @@ A case study that picks apart how Amazon's platform actually works, then designs
 dbdiagram.io for the ER diagram; conceptual schema design done manually based on Amazon's public-facing feature set.
 
 ## The schema
- 
+![Amazon Relational Database ER Diagram](ER-Diagram.jpg)
 Eight entities, built around the customer → order → payment/delivery → review lifecycle:
  
 | Entity | Purpose |
